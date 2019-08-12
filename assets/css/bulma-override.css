@@ -1,0 +1,16 @@
+.navbar-item img{
+    max-height: 5em;
+}
+
+.vh-100-header .container{
+    display: block;
+}
+.vh-100-header .navbar-brand{
+    align-items: start;
+}
+.vh-100-header .hero-head{
+    background: url('https://www.cityofpsl.com/Project/Contents/Main/_gfx/cmn/gradient_strip.png') 0 0 repeat-x;
+    height:100%;
+    background-size: auto auto;
+    padding-bottom: 1.2em;
+}

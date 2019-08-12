@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap');
+
+.vh-100-header .secondary-top-nav-items a{
+    color: #fff;
+    opacity: 1;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.vh-100-header #navbarMenu a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.2;
+    vertical-align: bottom;
+    letter-spacing: 0.6px;
+    color: #fff;
+}
+.vh-100-header #navbarMenu .navbar-start{
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+.vh-100-header .highlight{
+    max-height: 370px;
+    background: #4a7287;
+    padding:0 ;
+    margin-top:100px;
+}
+
+.vh-100-header .box-title{
+    position: relative;
+    font-size: 24px;
+    line-height: 83px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    height:83px;
+    margin-bottom: 0;
+}
+.vh-100-header .box-title::before, .vh-100-header .box-title::after{
+    content: '';
+    position: absolute;
+    width: 13%;
+    height: 1px;
+    background: #fff;
+    right:0;
+    left: 13%;
+    bottom:0;
+    top:0;
+    margin: auto 0  ;
+}
+.vh-100-header .box-title::after{
+    left:auto;
+    right: 13%;
+}
+.vh-100-header .highlight-box{
+    border-radius: unset;
+    padding:0;
+}
+
+.vh-100-header .highlight-box .slider a img{
+    width: 100%;
+    max-height: 180px;
+
+}
+.vh-100-header .highlight-box .slider a .caption{
+    background: #4a7287;
+    color: #fff;
+
+    padding: 10px 0;
+}
+.vh-100-header .highlight-box .slider a .title{
+    font-family: 'Roboto', sans-serif;
+    color: inherit;
+    font-size: 17px;
+    font-weight:normal;
+}
+.vh-100-header .highlight-box .slider .owl-dots {
+    background: #4a7287;
+
+}
+.vh-100-header .highlight-box .slider .owl-dots .owl-dot.active span {
+    border:1px solid #fff;
+    background: #4a7287;
+
+}
+.vh-100-header .highlight-box .slider .owl-dots .owl-dot span {
+    background: #fff;
+}
+.vh-100-header .highlight-box .slider .owl-nav{
+    display:none;
+}
+
+
+
+
+/* body section */
+.header-title{
+    font-family: 'Oswald', sans-serif;
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+}
+.body-content .box{
+    position: relative;
+    padding: 2em;
+}
+.body-content .box::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 20%;
+    transition: 0.3s height;
+}
+.body-content .box.about-us::before{
+    border: 8px solid #ff073a;
+    border-bottom: 0px;
+}
+.body-content .box.about-us:hover::before{
+    height: 100%;
+}
+.body-content .box.notice::before{
+    width:25%;
+    height:100%;
+    border:3px solid #39ff14;
+    border-right:0;
+}
+.body-content .box.press-release::before{
+    width:25%;
+    height:100%;
+    border:3px solid #39ff14;
+    border-right:0;
+}
+
+.body-content .box.notice .title, .body-content .box.press-release .title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.body-content .box.press-release::before{
+    width:25%;
+    height:100%;
+    border:3px solid #4d4dff;
+    border-right:0;
+}
+.body-content .box.press-release .title{
+}
+
+
+
+.body-content .box .content{
+    font-size: small;
+}
+.body-content .box .custom-button{
+    border:0;
+    border-radius: 23px;
+    padding: 12px 18px;
+    background:transparent;
+    
+}
+.body-content .box .custom-button.about-us-button{
+    color: #ff073a;
+    border: 1px solid #ff073a;
+    
+}
+.body-content .box .custom-button.press-release-button{
+    color: #4d4dff;
+    border: 1px solid #4d4dff;
+}
+.body-content .box .custom-button.press-release-button {
+    font-size: 12px;
+}
+
+.body-content .box .read-more{
+    font-family: 'Roboto';
+    text-align:right;
+}
+.body-content .box .read-more a{
+    font-size: small;
+}
+.body-content .box .read-more a:hover{
+    background:#ff073a;
+    color: #fff;
+}
+.body-content .box.press-release .read-more a:hover{
+    background: #4d4dff;
+    color: #fff;
+}
+.body-content .box.notice .read-more .custom-button{
+    color: #39ff14;
+    border: 1px solid #39ff14;
+}
+.body-content .box.notice .read-more a:hover{
+    background: #39ff14;
+    color: #fff;
+}
+
+
+/* notice */
+.body-content .box.notice .notice-list li, .body-content .box.press-release .press-release-list li{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.13);
+}
+.body-content .box.notice .notice-list li a{
+    color: #000;
+    font-size: 13px;
+}
+.notice .header-title, .press-release .header-title{
+    justify-content: space-between;
+}
+
+
+/* Press Release */
+
+
+
+
+
+
+
+
+
+
+
+/************** Photo *******************/
+
+.body-content .photo{
+    margin-bottom: 30px;
+}
+.body-content .photo .photo-person{
+    position: relative;
+    margin: 0 auto;
+}
+.body-content .photo .photo-person::before{
+    content: '';
+    position: absolute;
+    width: calc(100% + 12px);
+    height: calc(100% + 12px);
+    background: transparent;
+    border: 1px dotted rgba(0,0,0,0.21);
+    left:-6px;
+    bottom:-6px;
+    border-radius: 50%;
+
+}
+.body-content .photo .photo-name {
+    margin-top: 12px;
+    position: relative;
+}
+.body-content .photo .photo-name h5{
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    text-transform: initial;
+    line-height: 1.4;
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 0.6px;
+}
+.body-content .photo .photo-name p{
+    color: #0f0f0f;
+    font-style: italic;
+    padding: 5px 9px;
+    text-align: center;
+}
+.body-content .photo .photo-name::before{
+    position: absolute;
+    left: -20px;
+    top:0;
+    width:20px;
+    height: 100%;
+    background:black;
+
+}
