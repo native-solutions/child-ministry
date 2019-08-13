@@ -14,3 +14,103 @@
     background-size: auto auto;
     padding-bottom: 1.2em;
 }
+
+.slider-box .owl-nav{
+    text-align: center;
+
+}
+.slider-box .owl-nav .owl-prev,.slider-box .owl-nav .owl-next{
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    background: rgba(0,0,0,0.14) !important;
+    padding: 0px !important;
+    height: 100%;
+}
+.slider-box .owl-nav .owl-next{
+    bottom:0;
+    right:-20px;
+    left: auto;
+}
+.slider-box .owl-nav .owl-next span{
+    font-size: 72px;
+    color: #4a7287;
+
+}
+.slider-box .owl-nav .owl-prev span{
+    font-size: 72px!important;    
+    color: #4a7287;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** Floating buttons **/
+
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    z-index: 10000;
+  }
+  #mySidenav a:first{
+      top: 50%;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 160px;
+    background-color: #4CAF50;
+  }
+  
+  #blog {
+    top: 220px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #projects {
+    top: 280px;
+    background-color: #ff073a; /* Red */
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555 /* Light Black */
+  }

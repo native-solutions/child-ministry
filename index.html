@@ -16,7 +16,14 @@
     <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
-   
+  
+        <div id="mySidenav" class="sidenav">
+                <a href="#" id="about">CCH</a>
+                <a href="#" id="blog">104</a>
+                <a href="#" id="projects">SSCH</a>
+              </div> 
+
+
     <!-- Full height containerr with bg -->
     <section class="hero is-primary is-bold is-fullheight vh-100-header">
         <div class="hero-head">
@@ -25,8 +32,10 @@
                 <div class="container">
                     <!-- site logo -->
                     <div class="navbar-brand">
-                        <a href="" class="navbar-item">
+                        <a href="" class="navbar-item site-title">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Emblem_of_Nepal.svg/250px-Emblem_of_Nepal.svg.png" alt="">
+                            Government of Nepal<br>
+                            Child Care Right Agency Nepal
                         </a>
                         <div class="secondary-top-nav-items navbar-menu">
                             <div class="navbar-end">
@@ -35,6 +44,7 @@
                                 <a href="" class="navbar-item">Employment</a>
                                 <a href="" class="navbar-item">Utility Bill Pay</a>
                                 <a href="" class="navbar-item">Translate</a>
+                                <input type="text" placeholder="Search anything..." class="search-top">
                             </div>
                         </div>
                         <span class="navbar-burger burger" data-target="navbarMenuHeroC">
@@ -45,7 +55,35 @@
                     </div>                    
                     <div id="navbarMenu" class="navbar-menu">
                         <div class="navbar-start">
-                          <a href="" class="navbar-item">Home</a>
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a href="" class="navbar-link parent">Home</a>
+                                <div class="navbar-dropdown custom-dropdown">
+                                    <div class="columns">
+                                        <div class="column is-6">
+                                            <ul class="dropdown-list">
+                                                <li><a href="" class="navbar-item">Introduction</a></li>
+                                                <li><a href="" class="navbar-item">Laws & Policies</a></li>
+                                                <li><a href="" class="navbar-item">Information Centre</a></li>
+                                                <li><a href="" class="navbar-item">Citizenship Certificate</a></li>
+                                                <li><a href="" class="navbar-item"></a></li>
+                                                <li><a href="" class="navbar-item"></a></li>  
+                                            </ul>
+                                        </div>
+                                        <div class="column is-5">
+                                            <div class="slider-box owl-carousel owl-default">
+                                                <a href="">
+                                                    <figure>
+                                                        <img src="http://childrights.gov.np/_uploads/_img/3/dcd0677a582028d0dd09acd94ae62e85.jpg" alt="">
+                                                     </figure>            
+                                                     <div class="caption">
+                                                        President Of Nepal
+                                                     </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                           <a href="" class="navbar-item">About Us</a>
                           <a href="" class="navbar-item">Contact Us</a>
                           <a href="" class="navbar-item">Our Department</a>
@@ -128,7 +166,7 @@
                         <div class="column is-6">
                             <div class="box press-release">
                                 <div class="title header-title">Press Release
-                                        <img src="https://img.icons8.com/cute-clipart/64/000000/news.png">
+                                        <img width="50" src="https://img.icons8.com/cute-clipart/64/000000/news.png">
                                 </div>
                                 <ul class="press-release-list">
                                     <li>
@@ -216,6 +254,103 @@
             
         </div>
     </section>
+
+    <section class="top-content body-content section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+                    <div class="box popular-links">
+                        <div class="title header-title">
+                            Popular Links
+                            <img width="30" src="https://img.icons8.com/color/48/000000/link.png">
+                        </div>
+                        <ul class="links-list">
+                            <li><a href=""><strong>E Complain for children</strong></a></li>
+                            <li><a href=""><strong>E Complain for children</strong></a></li>
+                            <li><a href=""><strong>E Complain for children</strong></a></li>
+                            <li><a href=""><strong>E Complain for children</strong></a></li>
+
+                        </ul>
+                        <div class="read-more is-text-right">
+                            <a href="" class="button custom-button popular-link-button">View All</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="box most-downloaded popular-links">
+                        <div class="title header-title">
+                            Most Downloaded
+                            <img width="30" src="https://img.icons8.com/color/48/000000/download.png">
+
+                        </div>
+                        <ul class="links-list">
+                            <li><a href=""><strong>Child Lost Application Form</strong></a></li>
+                            <li><a href=""><strong>Child Lost Application Form</strong></a></li>
+                            <li><a href=""><strong>Child Lost Application Form</strong></a></li>
+                            <li><a href=""><strong>Child Lost Application Form</strong></a></li>
+
+                        </ul>
+                        <div class="read-more is-text-right">
+                            <a href="" class="button is-info custom-button most-downloaded-button">View All </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-4">
+                    <div class="box egovernance">
+                        <div class="title header-title">E Governance</div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-3">
+                    <div class="title footer-header-title">Main</div>
+                    <ul class="footer-menu-lists">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Menus</a></li>
+                        <li><a href="">Service</a></li>    
+                    </ul>
+                </div>
+                <div class="column is-3">
+                    <div class="title footer-header-title">Site Links</div>
+                    <ul class="footer-menu-lists">
+                        <li><a href="">Downloaded Forms</a></li>
+                        <li><a href="">Viewed Notice</a></li>
+                        <li><a href="">New Axis</a></li>
+                        <li><a href="">Perpencdicular Items</a></li>
+                        <li><a href="">Far & Parallel</a></li>
+                        </ul>
+                </div>
+                <div class="column is-3">
+                    <div class="title footer-header-title">Contact US</div>
+                    <ul class="footer-menu-lists">
+                        <li><a href="">9815090768</a></li>
+                        <li><a href="">child@gov.np</a></li>
+                        <li><a href="">New Baneshowr Kathmandu</a></li>
+                        <li><a href="">Fax: 01-324324</a></li>
+                    </ul>
+                </div>
+                <div class="column is-3">
+                    <div class="title footer-header-title">Map</div>
+                    <div class="content">
+                        
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/vegas.min.js"></script>

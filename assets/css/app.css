@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap');
 
+.site-title{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
 .vh-100-header .secondary-top-nav-items a{
     color: #fff;
     opacity: 1;
@@ -16,6 +21,68 @@
     letter-spacing: 0.6px;
     color: #fff;
 }
+.vh-100-header #navbarMenu .navbar-item .navbar-link{
+    color: #09203f;
+}
+.vh-100-header #navbarMenu .has-dropdown{
+    position:unset;
+}
+.vh-100-header #navbarMenu .navbar-dropdown{
+    width: 100%;
+    position: absolute;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.vh-100-header #navbarMenu .navbar-dropdown .navbar-item{
+    color: #09203f;
+    font-family: "Roboto";
+    font-size: 14px;
+
+}
+.vh-100-header #navbarMenu .navbar-dropdown .dropdown-list{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    overflow-wrap: break-word; 
+}
+.vh-100-header #navbarMenu .navbar-dropdown .dropdown-list li:not(even){
+    border-right: 2px solid #09203f;
+    overflow-wrap: break-word;
+    padding-bottom: 8px;
+    overflow:hidden;
+}
+.vh-100-header #navbarMenu .navbar-dropdown .dropdown-list li a{
+    overflow-wrap: break-word;
+}
+.vh-100-header #navbarMenu .navbar-item .navbar-link.parent {
+    color: #fff;
+}
+.vh-100-header #navbarMenu .navbar-item .navbar-link.parent::after{
+    border-color: #fff;
+}
+.vh-100-header #navbarMenu .navbar-dropdown .slider-box{
+    padding: 10px;
+    background: rgba(0,0,0,0.13);
+}
+.vh-100-header #navbarMenu .navbar-dropdown .slider-box figure{
+    width: 100%;
+    padding: 10px;
+}
+.vh-100-header #navbarMenu .navbar-dropdown .slider-box figure img{
+    width: 100%;
+    width: 100%;
+}
+.vh-100-header #navbarMenu .navbar-dropdown .slider-box a{
+    padding: 10px;
+}
+.vh-100-header #navbarMenu .navbar-dropdown .slider-box a .caption{
+    color: #09203f;
+    text-align: center;
+    font-size: 15px;
+}
+
 .vh-100-header #navbarMenu .navbar-start{
     width: 100%;
     justify-content: space-between;
@@ -119,6 +186,7 @@
     width:100%;
     height: 20%;
     transition: 0.3s height;
+    pointer-events: none;
 }
 .body-content .box.about-us::before{
     border: 8px solid #ff073a;
@@ -246,7 +314,7 @@
     width: calc(100% + 12px);
     height: calc(100% + 12px);
     background: transparent;
-    border: 1px dotted rgba(0,0,0,0.21);
+    border: 1px dotted #ff073a;
     left:-6px;
     bottom:-6px;
     border-radius: 50%;
@@ -281,3 +349,90 @@
     background:black;
 
 }
+
+
+/* Polular Links */
+.popular-links .header-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.popular-links .links-list li{
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.13);
+    margin-bottom: 6px;
+}
+.popular-links .links-list li a, .most-downloaded .links-list li a{
+    font-size: small;
+}
+
+.body-content .box.popular-links::before{
+    height: 100%;
+    border-top: 4px solid #faed27;
+    border-bottom: 4px solid #faed27;
+
+}
+.popular-links .title{
+    justify-content: space-between;
+}
+
+
+/* footer */
+.footer{
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    height: 100%;
+    padding-bottom: 15px;
+
+}
+
+.footer .footer-header-title{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.footer .footer-menu-lists li{
+    padding: 4px 0;
+}
+.footer .footer-menu-lists li a{
+    color: #fff;
+    font-size: 14px;
+
+}
+
+
+/* Most downloaded */
+.body-content .box.most-downloaded::before{
+    border-top: 4px solid #bc13fe;
+    border-bottom: 4px solid #bc13fe;
+}
+.body-content .box .custom-button.most-downloaded-button{
+
+    border: 1px solid #bc13fe;
+    color: #bc13fe;
+}
+.body-content .box .custom-button.popular-link-button{
+    border: 1px solid #faed27;
+    color: #cfd305;
+}
+
+
+.body-content .box.egovernance::before{
+    height: 100%;
+    border-top: 4px solid #b30a02;
+    border-bottom: 4px solid #b30a02;
+
+}
+.body-content .box.egovernance .header-title{
+    font-size: 18px;
+}
+
+
+/* search dropdown */
+.search-top{
+    padding: 0 15px;
+    border-radius: 19px;
+    margin-top: 3px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+

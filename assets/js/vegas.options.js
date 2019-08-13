@@ -22,3 +22,11 @@ $('.vh-100-header').vegas({
     items: 1,
     nav:true,
 })
+
+$('.slider-box').owlCarousel({
+  loop: true,
+  autoplay: true,
+  nav:true,
+  items: 2,
+  navPrevText: "Previous",
+})
